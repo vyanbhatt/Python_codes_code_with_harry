@@ -5,6 +5,10 @@ name2='bholo'
 print(name1)
 print(name2)
 
+#using f string->allows to use variable inside string
+st = f"hello {name1} im friend of {name2}"
+print(st)
+
 #how to slice the string
 #Note that in slicing, python creates a new string and copied chars from original string
 print(name1[0:2])#starts from 0 and goes till 1
