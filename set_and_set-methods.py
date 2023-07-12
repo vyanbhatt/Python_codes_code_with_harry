@@ -1,5 +1,10 @@
 s = {1,1,2,3,4,4,6,0} #removes duplicates and sorts the elements
 
+#following is the way to define empty set
+a = set()
+print(type(a))
+
+
 print(s) 
 
 #set methods
