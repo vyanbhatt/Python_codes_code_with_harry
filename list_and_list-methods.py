@@ -4,6 +4,9 @@ l1=[1 , 4 , 60.45 , 50 , "jordar bhai"]
 print(l1)
 print(type(l1)) #type function is used to print data type of variable
 
+#we can do slicing of list
+print(l1[0:1])
+
 #list methods
 l1.remove("jordar bhai") #removes element from list
 print(l1)
