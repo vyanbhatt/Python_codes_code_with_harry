@@ -13,6 +13,4 @@ if __name__ == '__main__':
         engine.say(x)
         engine.runAndWait()
 
-        if(x =="q"):
-            print("Bye bye bro ")
-            break:
+       
