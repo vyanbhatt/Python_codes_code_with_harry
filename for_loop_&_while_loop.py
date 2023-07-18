@@ -19,14 +19,20 @@ a = [1 , 4 , 5 , 5 , 6 , 6 , 10] #here inplace of list we can use set,tupple and
 for j in a:
     print(j)
 
-print()
+print("below is the tuple implementation")
+
+c = (1 , 4 , 5 , 5 , 6 , 6 , 10) #here tupple
+for j in c:
+    print(j)
+
+print("below is the set implementation")
 
 s  = {1 , 4 , 5 , 5 , 6 , 6 , 10 , 0} #with set
 for j in s:
     print(j)
 
 print("below is while loop")
-#2)while loop
+#2)while loop : Note that in while loop we first need to initialize the variable before while loop, and update it inside while loop
 i= 5
 while(i>0):
     print(i)
